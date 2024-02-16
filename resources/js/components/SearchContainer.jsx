@@ -55,7 +55,8 @@ const SearchContainer = () => {
                         </div>
                        
                     {/* Render buttons based on page url */}
-                    {window.location.href === import.meta.env.VITE_APP_URL + '/' ? (
+                    {/* {window.location.href === import.meta.env.VITE_APP_URL + '/' 
+                    ? (
                         <Link to="/search-results" className="search-form__btn">
                             Search
                         </Link>
@@ -66,7 +67,10 @@ const SearchContainer = () => {
                         >
                             Search
                         </button>
-                    )}
+                    )} */}
+                    <Link to="/search-results" className="search-form__btn">
+                            Search
+                        </Link>
                 </div>
             </div>
         </>
